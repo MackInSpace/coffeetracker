@@ -15,7 +15,9 @@ export default function Layout(props) {
     )
 
     const footer = (
-        <footer></footer>
+        <footer>
+            <p><span className="text-gradient">X-Caffeine</span> was made by Adam Mackey</p>
+        </footer>
     )
 
     return (
