@@ -1,3 +1,5 @@
+import { coffeeConsumptionHistory, timeSinceConsumption, getCaffeineAmount, calculateCurrentCaffeineLevel } from '../utils/index1';
+
 export default function History() {
     return (
         <>

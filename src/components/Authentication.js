@@ -9,7 +9,7 @@ export default function Authentication(props) {
     const [isAuthenticating, setIsAuthenticating] = useState(false)
     const [error, setError] = useState(null)
 
-    const { signup, login } = useAuth() //troubleshoot this section w/o Auth
+    //const { signup, login } = useAuth() //troubleshoot this section w/o Auth
 
     async function handleAuthenticate() {
         if (!email || !email.includes('@') || !password || password.length < 6 ||
@@ -18,11 +18,11 @@ export default function Authentication(props) {
             setIsAuthenticating(true)
             setError(null)
             if (isRegistration) {
-                // register a user
-                await signup(email, password)
+                // register a user after await with "signup"
+                await (email, password)
             } else {
-                // login a user
-                await login(email, password)
+                // login a user after await with "login"
+                await (email, password)
             }
             handleCloseModal()
         } catch (err) {

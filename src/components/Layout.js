@@ -26,7 +26,7 @@ export default function Layout(props) {
     const footer = (
         <footer>
             <p><span className="text-gradient">X-Caffeine</span> was made by Adam Mackey.
-            <br>Check out the project on <a target="_blank" href="https://github.com/MackInSpace/coffeetracker">GitHub</a>!</br></p>
+            <br />Check out the project on <a target="_blank" href="https://github.com/MackInSpace/coffeetracker">GitHub</a>!</p>
         </footer>
     )
 

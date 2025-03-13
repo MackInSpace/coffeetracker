@@ -1,5 +1,7 @@
-import { coffeeOptions } from "../utils/index1" 
-import { useState } from "react" 
+import { coffeeOptions } from "../utils/index1";
+import { useState } from "react";
+import Modal from './Modal';
+import Authentication from "./Authentication";
 
 export default function CoffeeForm(props) {
     const { isAuthenticated } = props
