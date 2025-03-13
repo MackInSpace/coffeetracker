@@ -28,7 +28,7 @@ export default function Stats() {
                     <div className="status">
                         <p><span className="stat-text">{caffeineLevel}</span>mg</p>
                         <h5 style={{ color: statusLevels[warningLevel].color, 
-                        background: statusLevels[warningLevel].background }}>Low</h5>
+                        background: statusLevels[warningLevel].background }}>{warningLevel}</h5>
                     </div>
                     <p>{statusLevels[warningLevel].description}</p>
                 </StatCard>
